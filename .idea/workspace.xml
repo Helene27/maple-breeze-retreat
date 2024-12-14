@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="301383c9-3a4a-4d50-b0c7-86b474fe3a09" name="Changes" comment="feat: :sparkles: Set up Rest-API with Spring-boot&#10;&#10;- Changed HttpClient to ApiClient&#10;- Commented out some test &#10;- Works when skipping spotbugs check&#10;- booking.json are now locaed in springboot/restserver&#10;- Other small changes&#10;Co-authored-by: helenkse &lt;helenkse@stud.ntnu.no&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/springboot/restserver/data/booking.json" beforeDir="false" afterPath="$PROJECT_DIR$/booking/springboot/restserver/data/booking.json" afterDir="false" />
+    </list>
+    <list id="81df83f2-167f-4235-8b65-5a0592e426af" name="Changes by heleneselvig" comment="Changes by heleneselvig">
+      <change beforePath="$PROJECT_DIR$/booking/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booking/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/core/src/main/java/booking/core/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking/core/src/main/java/booking/core/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/core/src/test/java/booking/core/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking/core/src/test/java/booking/core/BookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/persistence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booking/persistence/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booking/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/ui/src/main/java/booking/ui/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking/ui/src/main/java/booking/ui/App.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2oQjr3KNb9Ee9EckfKrioNguqWw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.TertiaryControllerTest.testCloseApplicationClosesStage.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "30-further-develop-rest-api-framework-2",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/marigjul/Desktop/ITP/booking/gr2416",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/booking/data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TertiaryControllerTest.testCloseApplicationClosesStage">
+    <configuration name="TertiaryControllerTest.testCloseApplicationClosesStage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="booking.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="booking.ui" />
+      <option name="MAIN_CLASS_NAME" value="booking.ui.TertiaryControllerTest" />
+      <option name="METHOD_NAME" value="testCloseApplicationClosesStage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot.restserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="booking.springboot.restserver.RestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TertiaryControllerTest.testCloseApplicationClosesStage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="301383c9-3a4a-4d50-b0c7-86b474fe3a09" name="Changes" comment="" />
+      <created>1730808888462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730808888462</updated>
+      <workItem from="1730808889509" duration="3324000" />
+      <workItem from="1730812225945" duration="13608000" />
+      <workItem from="1730895552992" duration="156000" />
+      <workItem from="1730895714601" duration="7853000" />
+      <workItem from="1730906003200" duration="14201000" />
+    </task>
+    <task id="LOCAL−00001" summary="feat: :sparkles: Set up Rest-API with Spring-boot&#10;&#10;- Changed HttpClient to ApiClient&#10;- Commented out some test &#10;- Works when skipping spotbugs check&#10;- booking.json are now locaed in springboot/restserver&#10;- Other small changes&#10;Co-authored-by: helenkse &lt;helenkse@stud.ntnu.no&gt;">
+      <option name="closed" value="true" />
+      <created>1730915372460</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1730915372460</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes by heleneselvig" />
+    <MESSAGE value="feat: :sparkles: Set up Rest-API with Spring-boot&#10;&#10;- Changed HttpClient to ApiClient&#10;- Commented out some test &#10;- Works when skipping spotbugs check&#10;- booking.json are now locaed in springboot/restserver&#10;- Other small changes&#10;Co-authored-by: helenkse &lt;helenkse@stud.ntnu.no&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: :sparkles: Set up Rest-API with Spring-boot&#10;&#10;- Changed HttpClient to ApiClient&#10;- Commented out some test &#10;- Works when skipping spotbugs check&#10;- booking.json are now locaed in springboot/restserver&#10;- Other small changes&#10;Co-authored-by: helenkse &lt;helenkse@stud.ntnu.no&gt;" />
+  </component>
+  <component name="com.github.lppedd.cc.CommitBuilderDialog">
+    <type>feat</type>
+    <subject>:bug: #30</subject>
+    <body>Clean up in pom-xml files and core module
+Co-authored-by helenkse &lt;helenkse@stud.ntnu.no&gt;</body>
+    <footers>
+      <entry type="" value="" />
+    </footers>
+  </component>
+</project>

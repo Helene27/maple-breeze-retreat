@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RestApplication<springboot.restserver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "booking.springboot.restserver/booking.springboot.restserver.RestApplication",
+            "projectName": "springboot.restserver",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
